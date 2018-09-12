@@ -7,21 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A605CD2F21465B2F0051CE0B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605CD2E21465B2F0051CE0B /* PlayerViewController.swift */; };
+		A63817982147BD4700346DA9 /* LiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63817972147BD4700346DA9 /* LiveCollectionViewCell.swift */; };
+		A638179A2147BDD400346DA9 /* LiveRoomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63817992147BDD400346DA9 /* LiveRoomLayout.swift */; };
+		A638179E2147BF6300346DA9 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A638179D2147BF6300346DA9 /* UIView+Frame.swift */; };
+		A63817A02147C60A00346DA9 /* LiveBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A638179F2147C60900346DA9 /* LiveBottomView.swift */; };
+		A63817A22147C61800346DA9 /* LiveBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63817A12147C61800346DA9 /* LiveBottomView.xib */; };
+		A63817A42147C8A000346DA9 /* LiveHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63817A32147C8A000346DA9 /* LiveHeaderView.swift */; };
+		A63817A62147C8AB00346DA9 /* LiveHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63817A52147C8AB00346DA9 /* LiveHeaderView.xib */; };
 		A668C2E12146420700B65D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668C2E02146420700B65D2A /* AppDelegate.swift */; };
-		A668C2E32146420700B65D2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668C2E22146420700B65D2A /* ViewController.swift */; };
+		A668C2E32146420700B65D2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668C2E22146420700B65D2A /* MainViewController.swift */; };
 		A668C2E62146420700B65D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A668C2E42146420700B65D2A /* Main.storyboard */; };
 		A668C2E82146420E00B65D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A668C2E72146420E00B65D2A /* Assets.xcassets */; };
 		A668C2EB2146420E00B65D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A668C2E92146420E00B65D2A /* LaunchScreen.storyboard */; };
+		A668C2F32146426100B65D2A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2F22146426100B65D2A /* IJKMediaFramework.framework */; };
+		A668C2F62146429300B65D2A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2F52146429300B65D2A /* CoreVideo.framework */; };
+		A668C2F82146429C00B65D2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2F72146429B00B65D2A /* CoreGraphics.framework */; };
+		A668C2FA214642AA00B65D2A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2F9214642AA00B65D2A /* CoreMedia.framework */; };
+		A668C2FC214642B100B65D2A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2FB214642B100B65D2A /* MediaPlayer.framework */; };
+		A668C2FE214642CC00B65D2A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2FD214642CC00B65D2A /* MobileCoreServices.framework */; };
+		A668C300214642D400B65D2A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C2FF214642D400B65D2A /* OpenGLES.framework */; };
+		A668C302214642DB00B65D2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C301214642DB00B65D2A /* QuartzCore.framework */; };
+		A668C304214642E200B65D2A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C303214642E200B65D2A /* AVFoundation.framework */; };
+		A668C306214642E900B65D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C305214642E900B65D2A /* UIKit.framework */; };
+		A668C308214642F000B65D2A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C307214642F000B65D2A /* VideoToolbox.framework */; };
+		A668C30A214642F600B65D2A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C309214642F600B65D2A /* AudioToolbox.framework */; };
+		A668C30C214642FF00B65D2A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C30B214642FF00B65D2A /* libz.tbd */; };
+		A668C30E2146430700B65D2A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C30D2146430700B65D2A /* libbz2.tbd */; };
+		A668C3102146433800B65D2A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A668C30F2146433700B65D2A /* libstdc++.tbd */; };
+		A668C314214644DA00B65D2A /* LiveCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668C312214644DA00B65D2A /* LiveCaptureViewController.swift */; };
+		DD898B93E49616D105C10530 /* Pods_XYLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C90CDFAB65132D9E583F3B6 /* Pods_XYLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF76C2260B7406DC72D4C57 /* Pods-XYLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYLive/Pods-XYLive.debug.xcconfig"; sourceTree = "<group>"; };
+		1C90CDFAB65132D9E583F3B6 /* Pods_XYLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A605CD2E21465B2F0051CE0B /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		A63817972147BD4700346DA9 /* LiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		A63817992147BDD400346DA9 /* LiveRoomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRoomLayout.swift; sourceTree = "<group>"; };
+		A638179D2147BF6300346DA9 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		A638179F2147C60900346DA9 /* LiveBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBottomView.swift; sourceTree = "<group>"; };
+		A63817A12147C61800346DA9 /* LiveBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveBottomView.xib; sourceTree = "<group>"; };
+		A63817A32147C8A000346DA9 /* LiveHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHeaderView.swift; sourceTree = "<group>"; };
+		A63817A52147C8AB00346DA9 /* LiveHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveHeaderView.xib; sourceTree = "<group>"; };
 		A668C2DD2146420700B65D2A /* XYLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A668C2E02146420700B65D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A668C2E22146420700B65D2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A668C2E22146420700B65D2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A668C2E52146420700B65D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A668C2E72146420E00B65D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A668C2EA2146420E00B65D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A668C2EC2146420E00B65D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A668C2F22146426100B65D2A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A668C2F52146429300B65D2A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A668C2F72146429B00B65D2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A668C2F9214642AA00B65D2A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A668C2FB214642B100B65D2A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A668C2FD214642CC00B65D2A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A668C2FF214642D400B65D2A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A668C301214642DB00B65D2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A668C303214642E200B65D2A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A668C305214642E900B65D2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A668C307214642F000B65D2A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A668C309214642F600B65D2A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A668C30B214642FF00B65D2A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A668C30D2146430700B65D2A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A668C30F2146433700B65D2A /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.tbd"; sourceTree = "<group>"; };
+		A668C311214643E300B65D2A /* XYLive_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYLive_Bridging_Header.h; sourceTree = "<group>"; };
+		A668C312214644DA00B65D2A /* LiveCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCaptureViewController.swift; sourceTree = "<group>"; };
+		B77AA1D1933F3B79E1293E11 /* Pods-XYLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYLive/Pods-XYLive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +82,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A668C30E2146430700B65D2A /* libbz2.tbd in Frameworks */,
+				A668C30C214642FF00B65D2A /* libz.tbd in Frameworks */,
+				A668C3102146433800B65D2A /* libstdc++.tbd in Frameworks */,
+				A668C30A214642F600B65D2A /* AudioToolbox.framework in Frameworks */,
+				A668C308214642F000B65D2A /* VideoToolbox.framework in Frameworks */,
+				A668C306214642E900B65D2A /* UIKit.framework in Frameworks */,
+				A668C304214642E200B65D2A /* AVFoundation.framework in Frameworks */,
+				A668C302214642DB00B65D2A /* QuartzCore.framework in Frameworks */,
+				A668C300214642D400B65D2A /* OpenGLES.framework in Frameworks */,
+				A668C2FE214642CC00B65D2A /* MobileCoreServices.framework in Frameworks */,
+				A668C2FC214642B100B65D2A /* MediaPlayer.framework in Frameworks */,
+				A668C2FA214642AA00B65D2A /* CoreMedia.framework in Frameworks */,
+				A668C2F82146429C00B65D2A /* CoreGraphics.framework in Frameworks */,
+				A668C2F62146429300B65D2A /* CoreVideo.framework in Frameworks */,
+				A668C2F32146426100B65D2A /* IJKMediaFramework.framework in Frameworks */,
+				DD898B93E49616D105C10530 /* Pods_XYLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CCE4128D9DD736483637561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AF76C2260B7406DC72D4C57 /* Pods-XYLive.debug.xcconfig */,
+				B77AA1D1933F3B79E1293E11 /* Pods-XYLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A668C2D42146420600B65D2A = {
 			isa = PBXGroup;
 			children = (
 				A668C2DF2146420700B65D2A /* XYLive */,
 				A668C2DE2146420700B65D2A /* Products */,
+				A668C2F42146429300B65D2A /* Frameworks */,
+				6CCE4128D9DD736483637561 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +134,95 @@
 		A668C2DF2146420700B65D2A /* XYLive */ = {
 			isa = PBXGroup;
 			children = (
-				A668C2E02146420700B65D2A /* AppDelegate.swift */,
-				A668C2E22146420700B65D2A /* ViewController.swift */,
-				A668C2E42146420700B65D2A /* Main.storyboard */,
-				A668C2E72146420E00B65D2A /* Assets.xcassets */,
-				A668C2E92146420E00B65D2A /* LaunchScreen.storyboard */,
-				A668C2EC2146420E00B65D2A /* Info.plist */,
+				A6BC3B272148AACC008F5BFA /* Resources */,
+				A6BC3B232148AAA0008F5BFA /* Classes */,
 			);
 			path = XYLive;
+			sourceTree = "<group>";
+		};
+		A668C2F42146429300B65D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A668C30D2146430700B65D2A /* libbz2.tbd */,
+				A668C30B214642FF00B65D2A /* libz.tbd */,
+				A668C309214642F600B65D2A /* AudioToolbox.framework */,
+				A668C307214642F000B65D2A /* VideoToolbox.framework */,
+				A668C305214642E900B65D2A /* UIKit.framework */,
+				A668C303214642E200B65D2A /* AVFoundation.framework */,
+				A668C301214642DB00B65D2A /* QuartzCore.framework */,
+				A668C2FF214642D400B65D2A /* OpenGLES.framework */,
+				A668C2FD214642CC00B65D2A /* MobileCoreServices.framework */,
+				A668C2FB214642B100B65D2A /* MediaPlayer.framework */,
+				A668C2F9214642AA00B65D2A /* CoreMedia.framework */,
+				A668C2F72146429B00B65D2A /* CoreGraphics.framework */,
+				A668C2F52146429300B65D2A /* CoreVideo.framework */,
+				1C90CDFAB65132D9E583F3B6 /* Pods_XYLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A67953A62148AAF900038740 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A638179D2147BF6300346DA9 /* UIView+Frame.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6BC3B232148AAA0008F5BFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A67953A62148AAF900038740 /* Extensions */,
+				A6BC3B242148AAA0008F5BFA /* Controller */,
+				A6BC3B252148AAA0008F5BFA /* Model */,
+				A6BC3B262148AAA0008F5BFA /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A6BC3B242148AAA0008F5BFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A605CD2E21465B2F0051CE0B /* PlayerViewController.swift */,
+				A668C2E22146420700B65D2A /* MainViewController.swift */,
+				A668C312214644DA00B65D2A /* LiveCaptureViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6BC3B252148AAA0008F5BFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6BC3B262148AAA0008F5BFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A63817992147BDD400346DA9 /* LiveRoomLayout.swift */,
+				A63817972147BD4700346DA9 /* LiveCollectionViewCell.swift */,
+				A638179F2147C60900346DA9 /* LiveBottomView.swift */,
+				A63817A12147C61800346DA9 /* LiveBottomView.xib */,
+				A63817A32147C8A000346DA9 /* LiveHeaderView.swift */,
+				A63817A52147C8AB00346DA9 /* LiveHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6BC3B272148AACC008F5BFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A668C2E02146420700B65D2A /* AppDelegate.swift */,
+				A668C2E72146420E00B65D2A /* Assets.xcassets */,
+				A668C2F22146426100B65D2A /* IJKMediaFramework.framework */,
+				A668C30F2146433700B65D2A /* libstdc++.tbd */,
+				A668C2E42146420700B65D2A /* Main.storyboard */,
+				A668C2E92146420E00B65D2A /* LaunchScreen.storyboard */,
+				A668C2EC2146420E00B65D2A /* Info.plist */,
+				A668C311214643E300B65D2A /* XYLive_Bridging_Header.h */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A668C2EF2146420E00B65D2A /* Build configuration list for PBXNativeTarget "XYLive" */;
 			buildPhases = (
+				C399190A6A0A9DB10A3805EF /* [CP] Check Pods Manifest.lock */,
 				A668C2D92146420700B65D2A /* Sources */,
 				A668C2DA2146420700B65D2A /* Frameworks */,
 				A668C2DB2146420700B65D2A /* Resources */,
+				06CCE64100AA4312FDC30CE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +285,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63817A62147C8AB00346DA9 /* LiveHeaderView.xib in Resources */,
 				A668C2EB2146420E00B65D2A /* LaunchScreen.storyboard in Resources */,
 				A668C2E82146420E00B65D2A /* Assets.xcassets in Resources */,
 				A668C2E62146420700B65D2A /* Main.storyboard in Resources */,
+				A63817A22147C61800346DA9 /* LiveBottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06CCE64100AA4312FDC30CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XYLive/Pods-XYLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFLiveKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYLive/Pods-XYLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C399190A6A0A9DB10A3805EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A668C2D92146420700B65D2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A668C2E32146420700B65D2A /* ViewController.swift in Sources */,
+				A668C2E32146420700B65D2A /* MainViewController.swift in Sources */,
+				A63817982147BD4700346DA9 /* LiveCollectionViewCell.swift in Sources */,
+				A605CD2F21465B2F0051CE0B /* PlayerViewController.swift in Sources */,
 				A668C2E12146420700B65D2A /* AppDelegate.swift in Sources */,
+				A638179E2147BF6300346DA9 /* UIView+Frame.swift in Sources */,
+				A638179A2147BDD400346DA9 /* LiveRoomLayout.swift in Sources */,
+				A63817A42147C8A000346DA9 /* LiveHeaderView.swift in Sources */,
+				A668C314214644DA00B65D2A /* LiveCaptureViewController.swift in Sources */,
+				A63817A02147C60A00346DA9 /* LiveBottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +491,33 @@
 		};
 		A668C2F02146420E00B65D2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF76C2260B7406DC72D4C57 /* Pods-XYLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYLive",
+				);
 				INFOPLIST_FILE = XYLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYLive",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"LFLiveKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiyan.XYLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XYLive/XYLive_Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +525,33 @@
 		};
 		A668C2F12146420E00B65D2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77AA1D1933F3B79E1293E11 /* Pods-XYLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYLive",
+				);
 				INFOPLIST_FILE = XYLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYLive",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"LFLiveKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiyan.XYLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XYLive/XYLive_Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

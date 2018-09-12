@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LiveBottomView" customModule="XYLive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlx-Nx-H9i">
+                    <rect key="frame" x="8" y="17.5" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="TNf-G1-jtv"/>
+                        <constraint firstAttribute="height" constant="44" id="xHK-H5-9Dz"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_liao_h"/>
+                    <connections>
+                        <action selector="chatBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="S8o-zy-7Ar"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-cw-4UO">
+                    <rect key="frame" x="271" y="17.5" width="44" height="44"/>
+                    <state key="normal" image="mg_room_btn_fenxiang_h"/>
+                    <connections>
+                        <action selector="shareBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="HLH-Kb-fQN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCf-Ff-nj7">
+                    <rect key="frame" x="323" y="17.5" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="tHF-1c-S6e"/>
+                        <constraint firstAttribute="width" constant="44" id="za8-dN-UcT"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_guan_h"/>
+                    <connections>
+                        <action selector="shutdownBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0Pe-jY-THG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxz-AS-3ST">
+                    <rect key="frame" x="219" y="17.5" width="44" height="44"/>
+                    <state key="normal" image="mg_room_btn_liwu_h"/>
+                    <connections>
+                        <action selector="gitBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="MQ8-Gc-52j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ce2-O2-5ds">
+                    <rect key="frame" x="167" y="17.5" width="44" height="44"/>
+                    <state key="normal" image="mg_room_btn_xinxi_h"/>
+                    <connections>
+                        <action selector="msgBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="D7g-Y4-nk0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ce2-O2-5ds" firstAttribute="height" secondItem="hxz-AS-3ST" secondAttribute="height" id="2CP-1R-1ev"/>
+                <constraint firstItem="oCf-Ff-nj7" firstAttribute="leading" secondItem="Vsl-cw-4UO" secondAttribute="trailing" constant="8" id="9ZZ-o1-JJA"/>
+                <constraint firstItem="hxz-AS-3ST" firstAttribute="leading" secondItem="Ce2-O2-5ds" secondAttribute="trailing" constant="8" id="EZu-Zt-X31"/>
+                <constraint firstItem="Ce2-O2-5ds" firstAttribute="centerY" secondItem="hxz-AS-3ST" secondAttribute="centerY" id="FAS-sa-IL4"/>
+                <constraint firstItem="Vsl-cw-4UO" firstAttribute="centerY" secondItem="oCf-Ff-nj7" secondAttribute="centerY" id="Fmx-Yz-pyb"/>
+                <constraint firstItem="qlx-Nx-H9i" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="LbT-2s-gT2"/>
+                <constraint firstItem="Vsl-cw-4UO" firstAttribute="leading" secondItem="hxz-AS-3ST" secondAttribute="trailing" constant="8" id="Wdo-uY-qmW"/>
+                <constraint firstItem="hxz-AS-3ST" firstAttribute="height" secondItem="Vsl-cw-4UO" secondAttribute="height" id="axg-qF-4w6"/>
+                <constraint firstItem="hxz-AS-3ST" firstAttribute="centerY" secondItem="Vsl-cw-4UO" secondAttribute="centerY" id="cTZ-0X-Syo"/>
+                <constraint firstItem="oCf-Ff-nj7" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="dtl-5d-Jk7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oCf-Ff-nj7" secondAttribute="trailing" constant="8" id="gml-tR-9Ul"/>
+                <constraint firstItem="Vsl-cw-4UO" firstAttribute="height" secondItem="oCf-Ff-nj7" secondAttribute="height" id="oTg-ca-cMB"/>
+                <constraint firstItem="qlx-Nx-H9i" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="pmB-9f-bs4"/>
+                <constraint firstItem="Ce2-O2-5ds" firstAttribute="width" secondItem="hxz-AS-3ST" secondAttribute="width" id="r4T-ep-6fD"/>
+                <constraint firstItem="hxz-AS-3ST" firstAttribute="width" secondItem="Vsl-cw-4UO" secondAttribute="width" id="vlA-Pj-UiQ"/>
+                <constraint firstItem="Vsl-cw-4UO" firstAttribute="width" secondItem="oCf-Ff-nj7" secondAttribute="width" id="xSz-px-Iow"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="chatBtn" destination="qlx-Nx-H9i" id="mJQ-qd-hY2"/>
+                <outlet property="giftBtn" destination="hxz-AS-3ST" id="xyX-LH-Jj3"/>
+                <outlet property="msgBtn" destination="Ce2-O2-5ds" id="CGi-kd-MOG"/>
+                <outlet property="shareBtn" destination="Vsl-cw-4UO" id="p5r-Qp-x4y"/>
+                <outlet property="shutdownBtn" destination="oCf-Ff-nj7" id="Fj5-Mv-QIq"/>
+            </connections>
+            <point key="canvasLocation" x="-211" y="-455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mg_room_btn_fenxiang_h" width="40" height="40"/>
+        <image name="mg_room_btn_guan_h" width="40" height="40"/>
+        <image name="mg_room_btn_liao_h" width="40" height="40"/>
+        <image name="mg_room_btn_liwu_h" width="40" height="40"/>
+        <image name="mg_room_btn_xinxi_h" width="40" height="40"/>
+    </resources>
+</document>
